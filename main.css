@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+
+}
+
+/*navbar*/
+
+.navbar{
+    background-color: #eee;
+    display:flex;
+
+}
+.navbar h1{
+    padding: 0 20px;
+    line-height: 1.5em;
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.nav-item a {
+    margin: 1em;
+    display: block;
+    color: #111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.nav-item a:hover {
+    color: white;
+    background-color: #111;
+    
+}
