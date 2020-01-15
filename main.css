@@ -10,6 +10,17 @@ body{
     clear: both;
 
 }
+.dogs{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.dog img{
+    height: 250px;
+    margin: 50px;
+   
+
+}
 
 /*navbar*/
 
