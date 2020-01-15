@@ -1,4 +1,5 @@
 body{
+
     background-color: white;
     padding: 0;
     margin: 0;
@@ -44,5 +45,8 @@ body{
 .nav-item a:hover {
     color: white;
     background-color: #111;
+
+    background-color:pink;
+
     
 }
