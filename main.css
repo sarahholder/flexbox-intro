@@ -10,13 +10,36 @@ body{
     clear: both;
 
 }
+
 .dogs{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
+.card{
+    width:300px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+    
+
+}
 .dog img{
     height: 250px;
+    margin: 50px;
+   
+
+}
+.cats{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+.cat img{
+    height: 400px;
     margin: 50px;
    
 
